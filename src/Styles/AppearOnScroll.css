@@ -1,6 +1,6 @@
 @keyframes appear {
     from {
-        opacity: 0;
+        opacity: 0.75;
         scale: 0.5;
     }
     to {
