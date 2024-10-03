@@ -1,7 +1,11 @@
+import gif from '../assets/Gifs/hero2.gif'
 
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <div className="">
+      <img src={gif} alt="" className=""/>
+      <p>Empowering dreams of a greener world</p>
+    </div>
   )
 }
 
