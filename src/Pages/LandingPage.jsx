@@ -2,11 +2,12 @@ import Navbar from "../Components/Navbar"
 import About from "../Sections/About"
 import About2 from "../Sections/About2"
 import Blogs from "../Sections/Blogs"
-import Directors from "../Sections/Directors"
+// import Directors from "../Sections/Directors"
 import Footer from "../Sections/Footer"
 import Gallery from "../Sections/Gallery"
 import Gallery_pics from "../Sections/Gallery_pics"
 import Hero from "../Sections/Hero"
+import Management from "../Sections/Management"
 import Testimonials from "../Sections/Testimonials"
 import Walkthrough from "../Sections/Walkthrough"
 
@@ -20,7 +21,7 @@ const LandingPage = () => {
         <About2/>
         <Gallery/>
         <Gallery_pics/>
-        <Directors/>
+        <Management/>
         <Blogs/>
         <Testimonials/>
         <Footer/>
