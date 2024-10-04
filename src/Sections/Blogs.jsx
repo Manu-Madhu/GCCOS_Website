@@ -4,18 +4,18 @@ import comma from '../assets/Images/comma.png';
 
 const blogsData = [
   {
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor sit amet, consectetur adipiscing.',
-    author: 'Frankie B.',
+    text: 'Why ESG Matters: Aligning Values with Business Success',
+    author: 'Sneha Jose',
     buttonText: 'Read More',
   },
   {
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor sit amet, consectetur adipiscing.',
-    author: 'Jesse N.',
+    text: 'Celebrating the Inauguration of GCCOSS: A New Era in Sustainability.',
+    author: 'Sneha Jose',
     buttonText: 'Read More',
   },
   {
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor sit amet, consectetur adipiscing.',
-    author: 'Akash M N.',
+    text: 'Statement of Work - GCCOSS.',
+    author: 'Sneha Jose',
     buttonText: 'Read More',
   },
 ];
@@ -28,7 +28,7 @@ const Blogs = () => {
         <img src={bg} className='h-[535px] w-[1700px] z-0' />
         <div className='lg:h-[450px] lg:w-[1100px] z-10 absolute flex flex-row items-center justify-center gap-6'>
           {blogsData.map((blog, index) => (
-            <div key={index} className="lg:h-full lg:w-[370px] bg-white rounded-2xl flex flex-col items-center justify-center gap-14">
+            <div key={index} className="lg:h-full lg:w-[370px] bg-white rounded-2xl flex flex-col items-center justify-center gap-14 p-6">
               <img src={comma} className='lg:h-10' />
               <p className='lg:text-base leading-10 text-center'>{blog.text}</p>
               <p className='text-xl font-semibold'>{blog.author}</p>
