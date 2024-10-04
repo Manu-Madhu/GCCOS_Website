@@ -6,16 +6,19 @@ const blogsData = [
   {
     text: 'Why ESG Matters: Aligning Values with Business Success',
     author: 'Sneha Jose',
+    designation: 'Sustainability Expert',
     buttonText: 'Read More',
   },
   {
     text: 'Celebrating the Inauguration of GCCOSS: A New Era in Sustainability.',
     author: 'Sneha Jose',
+    designation: 'Sustainability Expert',
     buttonText: 'Read More',
   },
   {
     text: 'Statement of Work - GCCOSS.',
     author: 'Sneha Jose',
+    designation: 'Sustainability Expert',
     buttonText: 'Read More',
   },
 ];
@@ -31,7 +34,10 @@ const Blogs = () => {
             <div key={index} className="lg:h-full lg:w-[370px] bg-white rounded-2xl flex flex-col items-center justify-center gap-14 p-6">
               <img src={comma} className='lg:h-10' />
               <p className='lg:text-base leading-10 text-center'>{blog.text}</p>
-              <p className='text-xl font-semibold'>{blog.author}</p>
+              <div>
+                <p className='lg:text-lg text-center font-medium'>{blog.author}</p>
+                <p className='lg:text-sm text-center'>{blog.designation}</p>
+              </div>
               <button className='lg:h-[50px] lg:w-[150px] bg-green-2 text-white hover:bg-[#fee48b] hover:text-black duration-300'>{blog.buttonText}</button>
             </div>
           ))}
