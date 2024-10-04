@@ -1,0 +1,25 @@
+@keyframes righttoleft {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-30%);
+    }
+}
+
+.righttoleft {
+    animation: righttoleft 20s infinite linear
+}
+
+@keyframes lefttoright {
+    from {
+        transform: translateX(-30%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+.lefttoright {
+    animation: lefttoright 20s infinite linear
+}
