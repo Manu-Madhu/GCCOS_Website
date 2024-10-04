@@ -3,6 +3,7 @@ import About from "../Sections/About"
 import About2 from "../Sections/About2"
 import Blogs from "../Sections/Blogs"
 import Directors from "../Sections/Directors"
+import Footer from "../Sections/Footer"
 import Gallery from "../Sections/Gallery"
 import Gallery_pics from "../Sections/Gallery_pics"
 import Hero from "../Sections/Hero"
@@ -22,6 +23,7 @@ const LandingPage = () => {
         <Directors/>
         <Blogs/>
         <Testimonials/>
+        <Footer/>
     </>
   )
 }
