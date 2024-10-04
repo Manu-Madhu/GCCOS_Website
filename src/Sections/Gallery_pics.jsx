@@ -7,7 +7,7 @@ import pic6 from '../assets/Images/pic6.webp';
 
 const Gallery_pics = () => {
   return (
-    <div className="h-screen lg:mt-[200px] bg-green-4">
+    <div className="h-auto lg:mt-[200px] bg-green-4 flex flex-col items-center gap-16 pb-16">
       <div className="grid grid-cols-3 gap-6">
         <img src={pic1} alt="" className="w-full h-auto hover:scale-105 duration-300" />
         <img src={pic2} alt="" className="w-full h-auto hover:scale-105 duration-300" />
@@ -16,6 +16,7 @@ const Gallery_pics = () => {
         <img src={pic5} alt="" className="w-full h-auto hover:scale-105 duration-300" />
         <img src={pic6} alt="" className="w-full h-auto hover:scale-105 duration-300" />
       </div>
+      <button className="lg:h-[80px] lg:w-[200px] border-2 text-white hover:bg-white hover:text-black duration-300">View More</button>
     </div>
   );
 };
