@@ -14,6 +14,9 @@ const Management = () => {
         <Swiper
         spaceBetween={50}
         slidesPerView={3}
+        navigation
+        pagination={{ clickable: true }}
+        scrollbar={{ draggable: true }}
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
         className='appear h-[400px] w-full bg-[#77846d] mt-20 gap-4'
