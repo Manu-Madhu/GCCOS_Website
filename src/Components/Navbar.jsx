@@ -12,7 +12,8 @@ const Navbar = () => {
                     <a href="#" className='lg:hover:text-gray-400'>Blogs</a>
                 </div>
                 <img src={logo} alt="" sizes={10} className='lg:h-16 lg:pr-32' />
-                <button className="bg-[#fee48b] lg:w-32 lg:h-10 lg:rounded-3xl lg:hover:bg-green-3 lg:hover:border border-black duration-300">User Profile</button>
+                {/* <button className="bg-[#fee48b] lg:w-32 lg:h-10 lg:rounded-3xl lg:hover:bg-green-3 lg:hover:border border-black duration-300">User Profile</button> */}
+                <button className="bg-[#fee48b] lg:w-32 lg:h-10 lg:rounded-3xl lg:hover:bg-green-3 lg:hover:border-2 border-black duration-300">Contact us</button>
             </div>
         </div>
     </div>
