@@ -1,4 +1,5 @@
 import '../Styles/AppearOnScroll.css'
+import '../Styles/SwiperStyle.css';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -19,7 +20,7 @@ const Management = () => {
         modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
         spaceBetween={50}
         slidesPerView={3}
-        navigation
+        // navigation
         pagination={{ clickable: true  }}
         autoplay={{
             delay: 2000,
