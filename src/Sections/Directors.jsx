@@ -5,9 +5,9 @@ import dir4 from '../assets/Images/dir4.webp'
 
 const Directors = () => {
   return (
-    <div className="lg:h-auto lg:pb-10 bg-[#77846d] lg:px-10 lg:pt-10 text-white">
+    <div className="lg:h-auto lg:pb-10 bg-[#77846d] lg:px-10 lg:pt-6 text-white">
         <p className='text-8xl font font-medium'>Our Directors</p>
-        <div className='lg:mt-28 flex flex-row gap-4 items-end'>
+        <div className='lg:mt-16 flex flex-row gap-4 items-end justify-center'>
             <div className='flex flex-col'>
                 <img src={dir1} alt="" className='lg:h-[450px] lg:w-[350px] rounded-3xl' />
                 <div className='lg:mt-8 flex flex-col gap-4'>
@@ -29,7 +29,7 @@ const Directors = () => {
                 </div>
             </div>
             <div className='flex flex-col'>
-                <img src={dir3} alt="" className='lg:h-[600px] lg:w-[350px] rounded-3xl' />
+                <img src={dir3} alt="" className='lg:h-[550px] lg:w-[350px] rounded-3xl' />
                 <div className='lg:mt-8 flex flex-col gap-4'>
                     <p className='lg:text-2xl font-medium'>Alex Smith</p>
                     <div className='flex flex-col gap-1'>
