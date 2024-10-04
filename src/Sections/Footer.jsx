@@ -13,7 +13,7 @@ const Footer = () => {
             <a href="">Gallery</a>
             <a href="">Blogs</a>
         </div>
-        <div className='mb-0 ml-20 mt-10'>
+        <div className='mb-0 ml-20 mt-10 flex flex-row items-end justify-between'>
             <div className='flex flex-col items-start justify-center gap-3'>
                 <p className='text-2xl text text-white font-medium'>GCCOSS</p>
                 <div className='text-white flex flex-row items-center gap-4'>
@@ -27,6 +27,16 @@ const Footer = () => {
                     </div>
                     <button type="submit" className='h-12 w-60 text-white border-white border-2 rounded-full hover:bg-[#fee48b] hover:text-black duration-300'>Subscribe</button>
                 </div>
+            </div>
+            <div className='flex flex-col text-white h-full w-72 ml-32'>
+                <p className='text-2xl font-medium'>Contact Info</p>
+                <p className='text-lg'>3rd Floor, Student Amenity Centre, University Road, South Kalamassery, Ernakulam, Kerala 682022</p>
+                <p className='text-base font-medium'>+91 95672 55580</p>
+                <p className='ext-base font-medium'>gccoss@cusat.ac.in</p>
+            </div>
+            <div className='flex flex-col text-white ml-32'>
+              <p className='text-2xl font-medium'>GCCOSS</p>
+              <p>© 2024 by GCCOS Built</p>
             </div>
         </div>
       </div>

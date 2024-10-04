@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import logo from '../assets/Images/Logo.webp';
 
 const Navbar = () => {
