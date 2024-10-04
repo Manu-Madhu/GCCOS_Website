@@ -25,7 +25,7 @@ const blogsData = [
 
 const Blogs = () => {
   return (
-    <div className="lg:h-screen bg-green-4 flex flex-col gap-7 items-start justify-center">
+    <div id='blogs' className="lg:h-screen bg-green-4 flex flex-col gap-7 items-start justify-center">
       <p className="appear lg:text-9xl font-medium lg:mt-10 lg:ml-10 text-white">Blogs</p>
       <div className='w-full lg:mt-10 flex flex-col items-center justify-center z-0 relative'>
         <img src={bg} className='h-[535px] w-[1700px] z-0' />

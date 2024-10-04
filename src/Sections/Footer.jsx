@@ -3,7 +3,7 @@ import logo from '../assets/Images/logo-white.webp';
 
 const Footer = () => {
   return (
-    <div className='h-auto w-full relative overflow-hidden'>
+    <div id='contact' className='h-auto w-full relative overflow-hidden'>
       <video src={footer} autoPlay loop muted className='w-full bg-cover bg-center' />
       <div className='absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black to-transparent flex flex-col items-start mt-10 gap-10'>
         <img src={logo} className='h-[250px]'/>
