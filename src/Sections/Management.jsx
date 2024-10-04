@@ -2,9 +2,13 @@ import '../Styles/AppearOnScroll.css'
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
 
 // Import Swiper styles
 import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 const Management = () => {
   return (
@@ -12,11 +16,15 @@ const Management = () => {
         <p className="appear mt-10 text-white text-7xl lg:ml-8 font-medium">Management Council Members</p>
 
         <Swiper
+        modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
         spaceBetween={50}
         slidesPerView={3}
         navigation
-        pagination={{ clickable: true }}
-        scrollbar={{ draggable: true }}
+        pagination={{ clickable: true  }}
+        autoplay={{
+            delay: 2000,
+            disableOnInteraction: false,
+          }}
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
         className='appear h-[400px] w-full bg-[#77846d] mt-20 gap-4'
