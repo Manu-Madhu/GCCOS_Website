@@ -17,21 +17,21 @@ const About2 = () => {
         <div className='flex flex-col mt-[100px]'>
             <div className='flex flex-row gap-5'>
                 <div>
-                    <img src={about2} className='' />
+                    <img src={about2} className='hover:scale-105 duration-200' />
                     <p className='text-2xl mt-5'>Training & certifications</p>
                 </div>
                 <div className='lg:mt-[80px]'>
-                    <img src={about3} className='' />
+                    <img src={about3} className='hover:scale-105 duration-200' />
                     <p className='text-2xl mt-5'>Consulting</p>
                 </div>
             </div>
             <div className='flex flex-row gap-5'>
                 <div className=''>
-                    <img src={about4} className='' />
+                    <img src={about4} className='hover:scale-105 duration-200' />
                     <p className='text-2xl mt-5'>Capacity Building</p>
                 </div>
                 <div className='lg:mt-[80px]'>
-                    <img src={about5} className='' />
+                    <img src={about5} className='hover:scale-105 duration-200' />
                     <p className='text-2xl mt-5'>Innovation & Research</p>
                 </div>
             </div>
