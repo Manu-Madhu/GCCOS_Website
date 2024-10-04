@@ -1,5 +1,5 @@
 import gif from '../assets/Gifs/walkthrough.mp4'
-import logoBlack from '../assets/Images/Logo-black.webp'
+import logoBlack from '../assets/Images/logo-black.webp'
 
 import '../Styles/AppearOnScroll.css'
 
