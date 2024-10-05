@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div id='contact' className='min-h-screen lg:h-auto w-full relative overflow-hidden'>
       <video src={footer} autoPlay loop muted className='object-cover min-h-screen w-full lg:bg-cover bg-center' />
-      <div className='absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black to-transparent flex flex-col items-start lg:mt-10 lg:gap-10'>
+      <div className='absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black to-transparent flex flex-col items-start mt-5 lg:mt-10 lg:gap-10'>
         <div className='flex item-center justify-center w-full lg:items-start lg:justify-start'>
           <img src={logo} className='w-40 lg:w-[250px] lg:h-[250px] object-cover lg:ml-10' />
         </div>
@@ -30,7 +30,7 @@ const Footer = () => {
               <button type="submit" className='h-12 w-60 text-white border-white border-2 lg:rounded-full hover:bg-[#fee48b] hover:text-black duration-300'>Subscribe</button>
             </div>
           </div>
-          <div className='flex flex-col text-white h-full w-72 lg:ml-32 mt-10 lg:mt-0'>
+          <div className='flex flex-col text-white h-full w-72 lg:ml-32 mt-5 lg:mt-0'>
             <p className='text-2xl font-medium'>Contact Info</p>
             <p className='text-lg'>3rd Floor, Student Amenity Centre, University Road, South Kalamassery, Ernakulam, Kerala 682022</p>
             <p className='text-base font-medium'>+91 95672 55580</p>
