@@ -5,12 +5,17 @@ import '../Styles/AppearOnScroll.css'
 
 const Walkthrough = () => {
   return (
-    <main className='overflow-hidden h-screen w-screen '>
-      <video src={gif} autoPlay muted loop className='h-screen w-screen z-0 object-cover' />
-      <div className='flex flex-col items-center -mt-[600px] z-10 gap-6 text-green-4 '>
-        <img src={logoBlack} className='appear h-56' />
-        <p className='appear text-[4rem] font-semibold'>Geojit CUSAT Center Of Sustainability Studies</p>
-        <p className='appear text-8xl font-semibold'>GCCOSS</p>
+    <main className='overflow-hidden h-screen w-screen relative flex items-center justify-center'>
+      <video src={gif} autoPlay muted loop className='h-full w-full z-0 object-cover' />
+
+      <div className='flex flex-col items-center absolute z-10 gap-6 text-green-4 '>
+        <img src={logoBlack} className='appear w-60 lg:h-56' />
+        <p className='appear text-[2rem] lg:text-[4rem] text-center font-bold lg:font-semibold leading-[40px]'>
+          Geojit CUSAT Center Of Sustainability Studies
+        </p>
+        <p className='appear text-[2.5rem] lg:text-8xl font-bold lg:font-semibold'>
+          GCCOSS
+        </p>
       </div>
     </main>
 
