@@ -5,7 +5,7 @@ import SideModal from './common/SideModal.jsx';
 
 const Navbar = () => {
   const [activeLink, setActiveLink] = useState('');
-  const [isOpen, setOpen] = useState(true);
+  const [isOpen, setOpen] = useState(false);
 
   const handleLinkClick = (link) => {
     setActiveLink(link);
