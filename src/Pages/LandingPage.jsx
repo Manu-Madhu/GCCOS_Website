@@ -14,17 +14,17 @@ import Walkthrough from "../Sections/Walkthrough"
 const LandingPage = () => {
   return (
     <>
-        <Navbar />
-        <Hero/>
-        <Walkthrough/>
-        <About/>
-        <About2/>
-        <Gallery/>
-        <Gallery_pics/>
-        <Management/>
-        <Blogs/>
-        <Testimonials/>
-        <Footer/>
+      <Navbar />
+      <Hero />
+      <Walkthrough />
+      <About />
+      <About2 />
+      <Gallery />
+      <Gallery_pics />
+      <Management />
+      <Blogs />
+      <Testimonials />
+      <Footer />
     </>
   )
 }
