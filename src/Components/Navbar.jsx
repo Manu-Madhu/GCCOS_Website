@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import logo from '../assets/Images/Logo.webp';
 import { IoMdMenu } from "react-icons/io";
-import SideModal from './common/sideModal';
+import SideModal from './common/SideModal.jsx';
 
 const Navbar = () => {
   const [activeLink, setActiveLink] = useState('');
